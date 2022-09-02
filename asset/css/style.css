@@ -183,7 +183,7 @@ body::-webkit-scrollbar-thumb:hover {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  /* animation: popup 1s ease-in-out 5s forwards; */
+  animation: popup 1s ease-in-out 5s forwards;
   z-index: 1;
 }
 
@@ -312,7 +312,7 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 5;
   transform: translateX(calc(-100% - 40px));
   transition: 0.5s ease-in-out;
-  /* animation: slideInOut 10s ease-in-out infinite; */
+  animation: slideInOut 10s ease-in-out infinite;
 }
 
 .notification-toast.closed {
